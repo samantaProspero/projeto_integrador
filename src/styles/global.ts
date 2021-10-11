@@ -10,9 +10,15 @@ export const GlobalStyle = createGlobalStyle`
     --text-body: #969CB2;
     --background: #f0f2f5;
     --shape: #FFFFFF;
-    --primary: #363F5F;
+    /* --primary: #363F5F; */
     --secondary: #000000;
+    --primary: #FF0000;
+    --bg_home: #B22222;
+    --bg_cadastro:#A52A2A;
+    --icon: #6495ED;
+    --bg_frame: #D3D3D3;
   }
+  /* font verdana 8 bold */
 
   *{
     margin: 0;

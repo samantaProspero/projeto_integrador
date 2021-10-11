@@ -19,74 +19,56 @@ justify-content: center;
 align-items: center;
 padding: 3rem;
 border-radius: 8px;
-
-background-color: var(--bg_cadastro);
+background-color: var(--bg_home);
 box-shadow: 0 2px 8px rgba(255, 255, 255,0.4);
 `;
-export const CadastroContainer = styled.div`
+export const Icons = styled.div`
+/* height: 120px; */
 width: 100%;
-/* height: 50vh; */
-background-color: var(--bg_frame);
-border-radius: 8px;
 display: flex;
-/* flex: 1; */
-justify-content: center;
-align-items: center;
-padding: 3rem;
-
-`;
-export const Inputs = styled.div`
-width: 70%;
-display: flex;
-flex-direction: column;
+flex-direction: rows;
 justify-content: center;
 align-items: flex-start;
-p{
-  color: var(--shape);
-  font-size: 1.2rem;
-}
-label{
-  width: 4rem;
-  color: var(--secondary);
-  font-size: 1.2rem;
-}
-`;
-export const Input = styled.div`
-padding: 0.7rem;
-display: flex;
-align-items: center;
-justify-content: right;
-
-input{
-  height: 1.8rem;
-  padding: 1rem;
-  margin-left: 1rem;
-  border-radius: 5px;
-  font-size: 1.2rem;
-}
 `;
 export const Buttons = styled.div`
-width: 30%;
+width: 100%;
 background-color: var(--bg_frame);
 display: flex;
-flex-direction: column;
+/* flex-direction: column; */
 flex: 1;
-justify-content: center;
-align-items: flex-end;
-border-radius:  0 8px 8px 0;
+justify-content: space-around;
+align-items: flex-start;
+padding: 15px;
+border-radius:  8px;
 
 padding-top: 0.7rem;
 
 button{
-  background-color: var(--bg_cadastro);
-  color: var(--shape);
-  width: 7rem;
-  font-size: 1rem;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 5px;
-  margin: 8px;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  border-radius:  8px;
+  background-color: var(--icon);
+
+
+  p{
+    font-weight: bold;
+    font-size: 10px;
+    padding-top: 5px;
+  }
 }
+`;
+
+export const Icon = styled.div`
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+  img{
+  width: 2rem;
+  height: 2rem;
+  };
 `;
 
 export const ListaAlunos = styled.div`

@@ -3,22 +3,24 @@ import styled from 'styled-components';
 export const Container = styled.div`
 width: 100%;
 height: 100vh;
-background-color: gray;
+background-color: rgb(0,0,0,0.8);
 display: flex;
 align-items: center;
 justify-content: center;
-  `;
+`;
+
 export const Content = styled.div`
-max-width: 1120px;
+max-width: 800px;
 margin: 0 auto;
 display: flex;
 flex: 1;
 justify-content: center;
 align-items: center;
-padding: 2.5rem 1rem;
+/* padding: 2.5rem 1rem; */
+
 `;
 export const LogoContainer = styled.div`
-width: 30%;
+width: 35%;
 height: 50vh;
 background-color: var(--secondary);
 display: flex;
@@ -32,11 +34,9 @@ p{
   font-size: 0.8rem;
   font-weight: bold;
 }
-/* box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04); */
-/* max-width: 1120px;*/
 `;
 export const LoginContainer = styled.div`
-width: 70%;
+width: 65%;
 height: 50vh;
 background-color: var(--primary);
 display: flex;
@@ -44,7 +44,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 border-radius: 0 8px 8px 0;
-/* box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04); */
+box-shadow: 0 2px 8px rgba(255, 255, 255,0.4);
 p{
   color: var(--shape);
   font-size: 1.5rem;
@@ -72,6 +72,7 @@ export const Buttons = styled.div`
 padding-top: 0.7rem;
 
 button{
+  width: 8rem;
   font-size: 1.4rem;
   padding: 0.3rem 1.8rem;
   border-radius: 5px;
@@ -84,7 +85,7 @@ export const LogoImg = styled.div`
   align-items: center;
   /* box-sizing: cover; */
   img{
-    width: 200px;
+    width: 150px;
   }
 `;
 
