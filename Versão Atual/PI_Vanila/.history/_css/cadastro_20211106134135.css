@@ -1,0 +1,106 @@
+#cadastro-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cadastro-content {
+  width: 60vw;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  border-radius: 8px;
+  background-color: var(--bg_home);
+}
+.cadastro-icons {
+  width: 100%;
+}
+/* .cadastro-header-painel {
+  width: 100%;
+  background-color: var(--bg_frame);
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+} */
+.cadastro-buttons {
+  width: 100%;
+  background-color: var(--bg_frame);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 8px;
+
+  padding-top: 0.7rem;
+}
+/* .cadastro-buttons button {
+  width: 62px;
+  height: 62px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  background-color: var(--icon);
+} */
+/* .cadastro-button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+} */
+/* .cadastro-button img {
+  width: 2rem;
+  height: 2rem;
+} */
+
+/* .cadastro-buttons p {
+  font-weight: bold;
+  font-size: 10px;
+  padding-top: 5px;
+} */
+.lista-alunos {
+  width: 100%;
+  height: 30vh;
+  background-color: var(--bg_frame);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 8px;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.area-cadastro .input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+.area-cadastro label {
+  color: var(--text);
+  font-size: 1.2rem;
+}
+.area-cadastro #form-cadastro input {
+  height: 1.5rem;
+  padding: 0.7rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.area-cadastro #form-cadastro #buttons-div input[type="button"] {
+  width: 8rem;
+  height: 3.5rem;
+  font-size: 1.4rem;
+  padding: 0.8rem 1.8rem;
+  border-radius: 5px;
+  margin: 50px;
+}
+

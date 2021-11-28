@@ -1,0 +1,23 @@
+.
+.login-painel{
+  width: 60vw;
+  height: 60vh;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.logo-painel{
+  width: 30%;
+  height: 100%;
+  background-color: black;
+
+}
+.area-login{
+  width: 70%;
+  height: 100%;
+  background-color: red;
+
+}

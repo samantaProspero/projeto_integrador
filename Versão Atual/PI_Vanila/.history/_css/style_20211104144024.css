@@ -1,0 +1,10 @@
+.login-painel{
+  width: 60vw;
+  height: 60vh;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.log-
